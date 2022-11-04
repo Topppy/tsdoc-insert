@@ -84,6 +84,13 @@ npm install -g vsce
 - 管理你的extension: https://marketplace.visualstudio.com/manage/publishers/topppy
 - 等待version变成绿色对号，就可以在vscode的extension商店搜索到你的插件了
 
+
+## TODO
+
+v1.1.0
+- 快捷键
+
+
 ## 参考
 
 #### vscode 插件：[tsdoc-comment](https://github.com/kingsimba/vscode-tsdoc-comment)
