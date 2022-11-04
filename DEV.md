@@ -79,9 +79,10 @@ npm install -g vsce
 - 创建普遍publisher
 - vsce login *publisher*
 
-[个人访问令牌](https://learn.microsoft.com/zh-cn/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows)
-
-
+发布:
+- vsce publish
+- 管理你的extension: https://marketplace.visualstudio.com/manage/publishers/topppy
+- 等待version变成绿色对号，就可以在vscode的extension商店搜索到你的插件了
 
 ## 参考
 

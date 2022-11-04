@@ -2,7 +2,7 @@
   "name": "tsdoc-insert",
   "displayName": "tsdoc-insert",
   "description": "A VSCode extension for insert TSDoc style comments into selections",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.72.0"
   },
