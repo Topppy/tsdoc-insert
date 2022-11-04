@@ -14,12 +14,8 @@ export function activate(context: vscode.ExtensionContext) {
   // Now provide the implementation of the command with registerCommand
   // The commandId parameter must match the command field in package.json
   let disposable = vscode.commands.registerTextEditorCommand(
-    "tsdoc-insert.helloWorld",
+    "tsdoc-insert.insert",
     (textEditor: vscode.TextEditor, edit: vscode.TextEditorEdit) => {
-      // The code you place here will be executed every time your command is executed
-      // Display a message box to the user
-      // vscode.window.showInformationMessage("Hello vscode from tsdoc-insert!");
-      // The code you place here will be executed every time your command is executed
       const document = textEditor.document;
       const selection = textEditor.selection;
       const startLine = selection.start.line;

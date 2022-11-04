@@ -1,23 +1,29 @@
 {
   "name": "tsdoc-insert",
   "displayName": "tsdoc-insert",
-  "description": "",
+  "description": "A VSCode extension for insert TSDoc style comments into selections",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.72.0"
+  },
+  "icon": "icon/icon.png",
+  "publisher": "Topppy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Topppy/tsdoc-insert.git"
   },
   "categories": [
     "Other"
   ],
   "activationEvents": [
-    "onCommand:tsdoc-insert.helloWorld"
+    "onCommand:tsdoc-insert.insert"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "tsdoc-insert.helloWorld",
-        "title": "Hello World"
+        "command": "tsdoc-insert.insert",
+        "title": "TSDoc Insert: insert empty TSDoc style comments into selected text"
       }
     ]
   },
