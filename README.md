@@ -40,7 +40,7 @@ interface test {
 }
 ```
 
-![](ani.gif)
+![](https://raw.githubusercontent.com/Topppy/tsdoc-insert/main/ani.gif)
 
 ## How to Use
 
