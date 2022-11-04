@@ -68,6 +68,20 @@ doc:
 npm install -g vsce
 ```
 
+- 补充使用文档（注意图片使用https）
+- 补充LICENSE
+- 补充icon（注意不能用svg）
+
+发布前准备
+- 在 marketplace.visualstudio.com/ 中注册并登录Microsoft账号
+- 在个人主页创建新的Azure DevOps组织
+- 创建个人token
+- 创建普遍publisher
+- vsce login *publisher*
+
+[个人访问令牌](https://learn.microsoft.com/zh-cn/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows)
+
+
 
 ## 参考
 
